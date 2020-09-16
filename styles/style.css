@@ -1,0 +1,580 @@
+.introduccion .boton, .novedades .color-de-fondo .novedades-contenedor .boton {
+  background-color: #00F3BB;
+  cursor: pointer;
+  height: 7vh;
+}
+
+.episodios .color-de-fondo, .novedades .color-de-fondo {
+  background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+}
+
+.introduccion .boton:hover, .novedades .color-de-fondo .novedades-contenedor .boton:hover {
+  background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+}
+
+.introduccion .boton a:hover, .novedades .color-de-fondo .novedades-contenedor .boton a:hover {
+  color: #ffffff;
+}
+
+.entrevistas .subtitulos, .temas .subtitulos {
+  color: #060A24;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 48px;
+  margin-bottom: 2rem;
+  margin-left: 13rem;
+}
+
+.introduccion p, .nosotros .nosotros-texto p, footer p {
+  color: #060A24;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.encabezado {
+  background-color: #ffffff;
+  display: block;
+  font-family: "IBM Plex Mono", monospace;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 1;
+}
+
+.encabezado .menu .boton-menu {
+  position: absolute;
+  visibility: hidden;
+}
+
+.encabezado .menu label {
+  position: absolute;
+  visibility: hidden;
+}
+
+.encabezado .menu .logo {
+  float: left;
+  margin: 1rem 5rem;
+  width: 40vw;
+}
+
+.encabezado .menu .logo #logo-image {
+  height: 30px;
+  width: 30px;
+}
+
+.encabezado .menu .menu-lista {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  float: left;
+  margin: 1rem;
+  width: 40vw;
+}
+
+.encabezado .menu .menu-lista li {
+  list-style: none;
+  margin: 0% 5%;
+}
+
+.encabezado .menu .menu-lista li a {
+  text-decoration: none;
+}
+
+.encabezado .menu .menu-lista li a:hover {
+  color: #00F3BB;
+  text-decoration: line-through;
+}
+
+.introduccion h1 {
+  color: #060A24;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 64px;
+  font-weight: normal;
+  margin-left: 13rem;
+  margin-top: 10rem;
+}
+
+.introduccion h1 #mundo {
+  text-decoration: line-through;
+}
+
+.introduccion h1::after {
+  background-color: #0000EC;
+  border-radius: 50%;
+  content: '';
+  height: 8px;
+  margin: 3.6rem 0.25rem;
+  position: absolute;
+  width: 8px;
+}
+
+.introduccion p {
+  height: 48px;
+  margin-left: 15vw;
+  width: 628px;
+}
+
+.introduccion .boton {
+  margin: 7vh 15vw;
+  width: 15vw;
+}
+
+.introduccion .boton a {
+  color: #060A24;
+  cursor: pointer;
+  display: block;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 18px;
+  line-height: 50px;
+  margin: auto;
+  text-align: center;
+  text-decoration: none;
+}
+
+.episodios {
+  position: relative;
+}
+
+.episodios .color-de-fondo {
+  height: 900px;
+  position: absolute;
+  -webkit-transform: skewY(-7deg);
+          transform: skewY(-7deg);
+  width: 100%;
+  z-index: -1;
+}
+
+.episodios .podecasts {
+  position: relative;
+  z-index: 0;
+}
+
+.episodios .podecasts .subtitulos {
+  color: #ffffff;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 48px;
+  margin-bottom: 2rem;
+  margin-left: 13rem;
+  padding-top: 5rem;
+}
+
+.episodios .podecasts .spotify {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.episodios .podecasts .spotify iframe {
+  border-style: none;
+  height: 20rem;
+  margin: 0;
+  width: 35rem;
+}
+
+.nosotros {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: -8rem;
+}
+
+.nosotros figure img {
+  height: 44rem;
+  margin-left: 10rem;
+  margin-top: 5rem;
+  width: 30.52rem;
+}
+
+.nosotros .nosotros-texto {
+  margin-left: 5rem;
+  margin-top: 18rem;
+}
+
+.nosotros .nosotros-texto .subtitulos {
+  color: #060A24;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 48px;
+  margin-bottom: 2rem;
+}
+
+.nosotros .nosotros-texto p {
+  height: 7rem;
+  margin-bottom: 1rem;
+  width: 30rem;
+}
+
+.entrevistas .subtitulos {
+  margin-top: 8rem;
+}
+
+.entrevistas .galeria {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  margin: 0%;
+}
+
+.entrevistas .galeria .fotos {
+  height: 50%;
+  margin: 0%;
+  width: 33.33%;
+}
+
+.temas .subtitulos {
+  margin-top: 4rem;
+}
+
+.temas .iconos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 3rem 20rem;
+}
+
+.temas .iconos figure {
+  margin: 0%;
+  width: auto;
+}
+
+.temas .iconos figure img {
+  display: block;
+  height: 5rem;
+  margin: auto;
+  width: 5rem;
+}
+
+.temas .iconos figure figcaption {
+  color: #060A24;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 24px;
+  margin-top: 2rem;
+  text-align: center;
+  width: 10rem;
+}
+
+.novedades .color-de-fondo {
+  -webkit-clip-path: polygon(0 35%, 100% 0, 100% 100%, 0% 100%);
+          clip-path: polygon(0 35%, 100% 0, 100% 100%, 0% 100%);
+  height: 30rem;
+  margin: 0%;
+}
+
+.novedades .color-de-fondo .novedades-contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.novedades .color-de-fondo .novedades-contenedor p {
+  color: #FFFFFF;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 48px;
+  margin-top: 10rem;
+  text-align: center;
+}
+
+.novedades .color-de-fondo .novedades-contenedor .boton {
+  margin: 2rem 33rem;
+  width: 25vw;
+}
+
+.novedades .color-de-fondo .novedades-contenedor .boton a {
+  color: #060A24;
+  cursor: pointer;
+  display: block;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 18px;
+  line-height: 50px;
+  margin: auto;
+  text-align: center;
+  text-decoration: none;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  height: 5rem;
+}
+
+footer p {
+  line-height: 28px;
+  margin-left: 10rem;
+  margin-top: 1.5rem;
+  width: 80%;
+}
+
+footer .redes-sociales {
+  margin-top: 1.5rem;
+  width: 20%;
+}
+
+footer .redes-sociales i {
+  width: 15%;
+}
+
+@media screen and (min-width: 100px) and (max-width: 400px) {
+  .encabezado {
+    display: block;
+    height: 60px;
+    width: 100vw;
+  }
+  .encabezado .menu .logo {
+    margin: 1rem 1rem;
+    width: 50%;
+  }
+  .encabezado .menu .logo #logo-image {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+  .encabezado .menu .boton-menu {
+    position: absolute;
+    visibility: hidden;
+  }
+  .encabezado .menu label {
+    position: relative;
+    visibility: visible;
+    width: 50%;
+  }
+  .encabezado .menu label i {
+    float: right;
+    margin-right: 0.5rem;
+    margin-top: 1rem;
+  }
+  .encabezado .menu .menu-lista {
+    position: absolute;
+    visibility: hidden;
+  }
+  .encabezado .menu #boton-menu:checked ~ .menu-lista {
+    background-color: #0000EC;
+    clear: both;
+    display: block;
+    margin: 0;
+    margin-top: 60px;
+    visibility: visible;
+    width: 100vw;
+  }
+  .encabezado .menu #boton-menu:checked ~ .menu-lista li {
+    list-style: none;
+    margin: 1.5rem 1rem;
+  }
+  .encabezado .menu #boton-menu:checked ~ .menu-lista li a {
+    color: #ffffff;
+    font-family: "IBM Plex Mono", monospace;
+    text-decoration: none;
+  }
+  .introduccion {
+    width: 100%;
+  }
+  .introduccion h1 {
+    font-size: 36px;
+    line-height: 42px;
+    margin-left: 2rem;
+    margin-top: 5rem;
+    width: 60%;
+  }
+  .introduccion h1::after {
+    background-color: #000000;
+    border-radius: 50%;
+    content: '';
+    height: 5px;
+    margin-top: 30px;
+    position: absolute;
+    width: 5px;
+  }
+  .introduccion p {
+    font-size: 14px;
+    height: 30%;
+    line-height: 22px;
+    margin: 2rem;
+    text-align: justify;
+    width: 85%;
+  }
+  .introduccion .boton {
+    height: 5%;
+    margin: 1rem 2rem;
+    margin-bottom: 3rem;
+    width: 85%;
+  }
+  .episodios .color-de-fondo {
+    height: 1200px;
+  }
+  .episodios .podecasts .subtitulos {
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    padding-top: 3rem;
+  }
+  .episodios .podecasts .spotify iframe {
+    height: 15rem;
+    width: 20rem;
+  }
+  .nosotros {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    margin-top: 0rem;
+  }
+  .nosotros figure img {
+    height: 30rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    width: 22rem;
+  }
+  .nosotros .nosotros-texto {
+    margin-left: 2rem;
+    margin-top: 3rem;
+  }
+  .nosotros .nosotros-texto .subtitulos {
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 1rem;
+    width: 50%;
+  }
+  .nosotros .nosotros-texto p {
+    margin-top: 3rem;
+    width: 95%;
+  }
+  .entrevistas .subtitulos {
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    width: 50%;
+  }
+  .entrevistas .galeria .fotos {
+    width: 100%;
+  }
+  .temas .subtitulos {
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    width: 80%;
+  }
+  .temas .iconos {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    margin: 3rem 2rem;
+  }
+  .temas .iconos figure {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+  }
+  .temas .iconos figure figcaption {
+    margin: 2rem 0rem;
+  }
+  .novedades .color-de-fondo {
+    -webkit-clip-path: polygon(0 14%, 100% 0, 100% 100%, 0% 100%);
+            clip-path: polygon(0 14%, 100% 0, 100% 100%, 0% 100%);
+    height: 20rem;
+  }
+  .novedades .color-de-fondo .novedades-contenedor {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .novedades .color-de-fondo .novedades-contenedor p {
+    font-size: 36px;
+    line-height: 42px;
+    margin-top: 5rem;
+    text-align: center;
+    width: 70%;
+  }
+  .novedades .color-de-fondo .novedades-contenedor .boton {
+    height: 5%;
+    margin: 1rem 2rem;
+    margin-bottom: 3rem;
+    width: 85%;
+  }
+  footer {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    margin-bottom: 4rem;
+    width: 100%;
+  }
+  footer .derechos {
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 2rem;
+    margin-left: 0rem;
+    margin-right: 0;
+    text-align: center;
+    width: 80%;
+  }
+  footer .redes-sociales {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row;
+            flex-flow: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  footer .redes-sociales i {
+    margin: 0rem 1rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
